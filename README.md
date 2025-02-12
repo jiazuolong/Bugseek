@@ -27,3 +27,20 @@ This repository provides a set of tools for computing phonon properties and phas
 
   ```bash
   pip install -r pyproject.toml
+  ## Installation
+  1.Clone the repository:
+  ```
+  git clone https://github.com/your-username/phonon-calculator.git
+  cd phonon-calculator
+  ```
+  2.Install the necessary Python dependencies:
+  ```
+  pip install -r requirements.txt
+  ```
+  ## Useage
+  You can run the main program via the command line using the following structure:
+```
+python main.py --supercell 3 3 3 --strain 1.0 --calculator mattersim --mesh 19 19 19 --do_compute_phase_diagram --mpr_api_key YOUR_MATERIALS_PROJECT_API_KEY
+```
+
+
