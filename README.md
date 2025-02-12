@@ -26,4 +26,4 @@ This repository provides a set of tools for computing phonon properties and phas
   You can install these dependencies using `pip`:
 
   ```bash
-  pip install -r requirements.txt
+  pip install -r pyproject.toml
