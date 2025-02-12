@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phonon_package"
+version = "1.1.2"
+description = "A package for phonon calculations using MatterSim, sumo, phono3py and phase diagram calculations using Materials Project API."
+authors = [
+    { name = "qinzhenhao", email = "qinzhenhaoqzh@163.com" }
+]
+dependencies = [
+    "numpy",
+    "ase",
+    "click",
+    "tqdm",
+    "phonopy",
+    "phono3py",
+    "h5py",
+    "mattersim",
+    "sumo",
+    "pymatgen"
+]
+
+[project.scripts]
+phonon_calc = "phonon_package:main"
