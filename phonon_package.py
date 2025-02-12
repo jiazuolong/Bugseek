@@ -70,6 +70,7 @@ class PhononCalculator:
                 positions=self.atoms.get_positions(),
                 cell=self.atoms.get_cell(),
             ),
+            supercell_matrix=self.supercell_matrix  
         )
         phonon.generate_displacements(distance=0.03)
         set_of_forces = [self._calculate_forces(scell) for scell in phonon.supercells_with_displacements]
