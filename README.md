@@ -1,4 +1,4 @@
-# Bugseek
+# MLPHO
 ## Phonon Calculator and Phase Diagram Computation
 
 This repository provides a set of tools for computing phonon properties and phase diagrams using various force field calculators and the Phonopy and Phono3py tools. It includes the following steps:
